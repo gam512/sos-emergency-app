@@ -1,87 +1,58 @@
 
 # Xây dựng hệ thống hỗ trợ bảo vệ an toàn cá nhân và cảnh báo nguy hiểm trên nền tảng di động
 
-## 1. Giới thiệu đề tài
+## Giới thiệu đề tài
+Ứng dụng di động hỗ trợ người dùng gửi tín hiệu cầu cứu khẩn cấp, chia sẻ vị trí GPS và thông báo đến người liên hệ đã thiết lập.
 
-Dự án thuộc môn học **Đồ án thực tế Công nghệ phần mềm**.
+## Thành viên nhóm
 
-Hệ thống được phát triển trên nền tảng di động nhằm hỗ trợ người dùng bảo vệ an toàn cá nhân, kích hoạt cảnh báo SOS và chia sẻ vị trí đến các liên hệ khẩn cấp khi gặp tình huống nguy hiểm.
+| STT | Họ và tên | MSSV | Vai trò | GitHub |
+|---|---|---|---|---|
+| 1 | [Họ tên] | [MSSV] | Vai trò |
+| 2 | [Họ tên] | [MSSV] | Vai trò | 
+| 3 | [Họ tên] | [MSSV] | Vai trò | 
 
-## 2. Mục tiêu đề tài
+## Chức năng dự kiến
+- Kích hoạt và hủy SOS.
+- Xác định và cập nhật vị trí GPS.
+- Gửi cảnh báo đến liên hệ khẩn cấp.
+- Quản lý tài khoản và danh sách liên hệ.
+- Lưu trữ lịch sử SOS.
+- Xử lý lỗi kết nối và quyền truy cập.
+- Bảo mật thông tin người dùng.
 
-- Hỗ trợ cảnh báo nhanh trong tình huống khẩn cấp.
-- Xác định và chia sẻ vị trí người dùng.
-- Gửi cảnh báo đến các liên hệ khẩn cấp.
-- Quản lý danh sách liên hệ và lịch sử SOS.
-- Nghiên cứu khả năng kích hoạt SOS khi màn hình khóa.
-- Đảm bảo an toàn thông tin và tính ổn định của hệ thống.
-
-## 3. Chức năng dự kiến
-
-| STT | Chức năng | Mô tả |
-|:---:|---|---|
-| 1 | Quản lý tài khoản | Đăng ký, đăng nhập và quản lý thông tin |
-| 2 | Liên hệ khẩn cấp | Thêm, sửa, xóa liên hệ |
-| 3 | Kích hoạt SOS | Phát cảnh báo khi gặp nguy hiểm |
-| 4 | Hủy SOS | Hủy hoặc kết thúc cảnh báo |
-| 5 | Định vị GPS | Xác định và cập nhật vị trí |
-| 6 | Gửi cảnh báo | Gửi thông tin SOS và vị trí đến liên hệ |
-| 7 | Trạng thái SOS | Theo dõi trạng thái cảnh báo |
-| 8 | Lịch sử SOS | Lưu trữ và tra cứu lịch sử cảnh báo |
-
-## 4. Công nghệ sử dụng
-
-**Đang khảo sát và lựa chọn.**
-
-- Mobile Application
-- Backend
-- Database
-- Networking & Security
-- Location Services
-
-## 5. Phân công công việc
+## Phân công công việc
 
 | Vai trò | Nhiệm vụ chính |
 |---|---|
-| **Core System Developer** | SOS Core, GPS, Use Case, Activity Diagram, State Diagram |
-| **Network & Security Engineer** | Architecture Diagram, Sequence Diagram, truyền dữ liệu và bảo mật |
-| **Server & Database Admin** | Backend, API/Service, Database Schema, Data Model |
+| Nhóm trưởng | WBS, quản lý tiến độ, kiểm tra bàn giao |
+| Core System Developer | SOS/GPS, Use Case, Activity, State Diagram |
+| Network & Security Engineer | Architecture, Sequence, Network & Security |
+| Server & Database Admin | Backend, API, Database, ERD |
+| Cả nhóm | SRS, UI/UX, SAD, tích hợp và kiểm thử |
 
-**Công việc chung:** SRS, WBS, UI/UX, tích hợp, kiểm thử và hoàn thiện ứng dụng.
+## Tiến độ dự án
 
-## 6. Kế hoạch thực hiện
+| Giai đoạn | Nội dung | Trạng thái |
+|---|---|---|
+| 1. Chuẩn bị | WBS, SRS sơ bộ | Đang thực hiện |
+| 2. Khảo sát | SOS/GPS, Network, Backend | Chưa bắt đầu |
+| 3. Phân tích & thiết kế | SRS, SAD, UI/UX | Chưa bắt đầu |
+| 4. Phát triển | Giao diện, SOS, Network, Backend | Chưa bắt đầu |
+| 5. Hoàn thiện | Tích hợp, kiểm thử, bàn giao | Chưa bắt đầu |
 
-| Giai đoạn | Nội dung |
-|---|---|
-| **1** | Giới thiệu đề tài, SRS sơ bộ, WBS |
-| **2** | Khảo sát yêu cầu và nghiên cứu công nghệ |
-| **3** | SRS, SAD, Database Schema, UI/UX Prototype |
-| **4** | Phát triển ứng dụng, tích hợp và kiểm thử |
-| **5** | Hoàn thiện và bàn giao sản phẩm |
+## Công nghệ sử dụng
+- **Nền tảng:** Ứng dụng di động
+- **Ngôn ngữ lập trình:** Đang cập nhật
+- **Backend & Database:** Đang cập nhật
+- **UI/UX:** Figma
+- **Quản lý mã nguồn:** Git & GitHub
 
-## 7. Tài liệu dự án
+## Tài liệu dự án
+- **WBS:** [Bảng kế hoạch công việc](LINK_WBS)
+- **SRS:** Đang cập nhật
+- **SAD:** Đang cập nhật
+- **Figma:** Đang cập nhật
 
-- SRS – Software Requirements Specification
-- SAD – Software Architecture/Design Document
-- WBS – Work Breakdown Structure
-- Use Case Diagram & Specification
-- Activity Diagram
-- State Diagram
-- Architecture Diagram
-- Sequence Diagram
-- Database Schema / Data Model
-- UI/UX Prototype
-
-## 8. Tiến độ
-
-- [x] Xác định đề tài
-- [x] Phân công vai trò
-- [x] Khởi tạo GitHub Repository
-- [ ] SRS sơ bộ & WBS
-- [ ] Khảo sát và lựa chọn công nghệ
-- [ ] SRS & SAD
-- [ ] Database Schema
-- [ ] UI/UX Prototype
-- [ ] Phát triển ứng dụng
-- [ ] Tích hợp & kiểm thử
-- [ ] Hoàn thiện sản phẩm
+## Trạng thái dự án
+**Đang trong giai đoạn chuẩn bị và phân tích yêu cầu.**
