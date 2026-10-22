@@ -5,7 +5,7 @@
 Xây dựng ứng dụng di động hỗ trợ cầu cứu trong các tình huống nguy hiểm như bị đe dọa, khống chế hoặc bắt cóc. Hệ thống cho phép kích hoạt cảnh báo bằng thao tác bí mật, hướng đến khả năng sử dụng khi điện thoại chưa mở khóa mà không cần gọi điện. Khi kích hoạt, ứng dụng tự động gửi thông báo SOS kèm vị trí hiện tại đến người thân hoặc liên hệ khẩn cấp đã thiết lập, đồng thời hỗ trợ chia sẻ và cập nhật vị trí để người nhận theo dõi tình trạng và kịp thời hỗ trợ.
 ## Thành viên nhóm
 
-| STT | Họ và tên | MSSV | Vai trò | GitHub |
+| STT | Họ và tên | MSSV | Vai trò | 
 |---|---|---|---|---|
 | 1 | [Họ tên] | [MSSV] | Vai trò |
 | 2 | [Họ tên] | [MSSV] | Vai trò | 
