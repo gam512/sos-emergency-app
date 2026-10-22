@@ -53,11 +53,11 @@ Hệ thống được phát triển trên nền tảng di động nhằm hỗ tr
 
 | Giai đoạn | Nội dung |
 |---|---|
-| **Chương 1** | Giới thiệu đề tài, SRS sơ bộ, WBS |
-| **Chương 2** | Khảo sát yêu cầu và nghiên cứu công nghệ |
-| **Chương 3** | SRS, SAD, Database Schema, UI/UX Prototype |
-| **Chương 4** | Phát triển ứng dụng, tích hợp và kiểm thử |
-| **Chương 5** | Hoàn thiện và bàn giao sản phẩm |
+| **1** | Giới thiệu đề tài, SRS sơ bộ, WBS |
+| **2** | Khảo sát yêu cầu và nghiên cứu công nghệ |
+| **3** | SRS, SAD, Database Schema, UI/UX Prototype |
+| **4** | Phát triển ứng dụng, tích hợp và kiểm thử |
+| **5** | Hoàn thiện và bàn giao sản phẩm |
 
 ## 7. Tài liệu dự án
 
