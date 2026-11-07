@@ -10,6 +10,7 @@ Xây dựng ứng dụng di động hỗ trợ cầu cứu trong các tình hu�
 | 1 | [Họ tên] | [MSSV] | Vai trò | @username
 | 2 | [Họ tên] | [MSSV] | Vai trò | @username
 | 3 | [Họ tên] | [MSSV] | Vai trò | @username
+| 4 | [Họ tên] | [MSSV] | Vai trò | @username
 
 ## Chức năng dự kiến
 - Kích hoạt và hủy SOS.
